@@ -1,0 +1,59 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #282c34;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#game-container {
+  width: 90%;
+  max-width: 600px;
+  background: #1c1e26;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #61dafb;
+}
+
+#game-output {
+  background: #121417;
+  border-radius: 4px;
+  padding: 10px;
+  height: 200px;
+  overflow-y: auto;
+  margin-bottom: 15px;
+}
+
+#game-output p {
+  margin: 5px 0;
+}
+
+#command-input {
+  width: calc(100% - 110px);
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+#submit-command {
+  padding: 10px;
+  border: none;
+  border-radius: 4px;
+  background: #61dafb;
+  color: #1c1e26;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#submit-command:hover {
+  background: #5ec6e4;
+}
